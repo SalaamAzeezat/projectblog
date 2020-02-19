@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial scale=1">
     <link rel="stylesheet" href="css/homepagestyle.css">
-    <link rel="stylesheet" href="css/homequeries.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -15,16 +15,16 @@
                   <h1 class="logo-text">Natural Health Blog</h1>
                   <h3 class="logo-text">Heal, relax and have fun with nature....</h3>
             </div>
-            <div class="menu">
-                <i class="fa fa-bars menu-toggle" aria-hidden="true">
-                    <ul>
+            <div class="mobile-menu">
+                <input class="menu-btn" type="checkbox" id="menu-btn"/>
+                <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+                    <ul class="menu">
                         <li><a href="homepage.html">Home</a></li>
                         <li><a href="#research">Research</a></li>
                         <li><a href="#healthrecipes">Health Recipes</a></li>
                         <li><a href="#healthnews">Health News</a></li>
                         <li><input type="text" placeholder="Search...."><button class="button" type="button">Search</button></li>
                     </ul>
-                </i>
              </div>
        </header>
        <nav class="box" id="navbar">

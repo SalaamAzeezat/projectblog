@@ -28,6 +28,7 @@ body {
     display: flex;
     padding: 3rem;
 }
+
 #topbar {
     display: flex;
     grid-row: 1/2;
@@ -44,8 +45,9 @@ header h3 {
 .logo-text {
     margin: 0px;
 }
-header .menu-toggle {
-    display: none;
+.mobile-menu {
+    opacity: 0;
+}
 }
 #navbar {
     display: grid;
