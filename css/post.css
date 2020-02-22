@@ -156,6 +156,9 @@ p {
 .share {
     color: whitesmoke;
 }
+bdi {
+    font-weight: bold;
+}
 aside {
     display: flex;
     flex-flow: wrap;
