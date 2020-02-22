@@ -4,7 +4,8 @@
     <title>Natural Health Blog</title>,
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial scale=1">
-    <link rel="stylesheet" href="css/post.css">
+    <link rel="stylesheet" href="../css/post.css">
+    <link rel="stylesheet" href="../css/mediaquery.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -18,7 +19,7 @@
                 <input class="menu-btn" type="checkbox" id="menu-btn"/>
                 <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
                     <ul class="menu">
-                        <li><a href="homepage.html">Home</a></li>
+                        <li><a href="/homepage.html">Home</a></li>
                         <li><a href="#research">Research</a></li>
                         <li><a href="#healthrecipes">Health Recipes</a></li>
                         <li><a href="#healthnews">Health News</a></li>
@@ -28,7 +29,7 @@
         </header>
         <nav class="card" id="navbar">
             <ul>
-                <li><a href="homepage.html">Home</a></li>
+                <li><a href="/homepage.html">Home</a></li>
                 <li><a href="#research">Research</a></li>
                 <li><a href="#healthrecipes">Health Recipes</a></li>
                 <li><a href="#healthnews">Health News</a></li>
@@ -38,16 +39,16 @@
         <div class="card" id="main">
             <section>
                 <article>
-                    <img src="images/aloevera2.jpg" alt="Aloe vera" class="card-image">
+                    <img src="../images/aloevera2.jpg" alt="Aloe vera" class="card-image">
                     <h2>ALOE-VERA GRUEL INITIAL TREATMENT IN HIV INFECTION</h2>
                     <p>Human Immunodeficiency virus (HIV) - a lentivirus that causes HIV infection and Acquired Immune
                         Deficiency Syndrome.It is a condition in humans in which progressive failure of the immune
-                        system allows life threatening infections and cancers to thrive (Ram and Ellen, 2004).
+                        system allows life threatening infections and cancers to thrive <blockquote>(Ram and Ellen, 2004).</blockquote>
                     </p>
                     <p>HIV infection leads to low levels of CD4+ T cells through apoptosis of uninfected bystander
                         cells, direct viral killing of infected cells, and killing of infected CD4+ T cells by CD8
                         cytotoxic lymphocytes that recognize infected cells.
-                        (Garg et al., 2012)
+                        <blockquote>(Garg et al., 2012)</blockquote>
                     </p>
                     <h3>MODE OF TRANSMISSION OF HIV INFECTION</h3>
                         <ul>
@@ -75,10 +76,10 @@
                 </div>
             </section>
         </div>
-        <div class="card" id="sidebar-top">
+        <aside class="card" id="sidebar-top">
             <section>
                 <article>
-                    <img src="images/Salaam Azeezat.jpg" alt="Author" class="card-image"/>
+                    <img src="../images/Salaam Azeezat.jpg" alt="Author" class="card-image"/>
                     <div class="card-details">
                         <header class="card-title">
                             <h2>About Author</h2>
@@ -96,8 +97,8 @@
                     </div>
                 </article>
             </section>
-        </div>
-        <div class="card" id="sidebar-bottom">
+        </aside>
+        <aside class="card" id="sidebar-bottom">
             <h3>You might be interested in:</h3>
             <ul>
                 <li><a href="#">How to make a Bath Bomb</a></li>
@@ -105,7 +106,7 @@
                 <li><a href="#">Mercury in Beauty Products</a></li>
                 <li><a href="#">How to make Facial Cream</a></li>
             </ul>
-        </div>
+        </aside>
         <footer class="card" id="footer-main">
             <a href="#">About Us</a>
             <a href="#">Advertising</a>

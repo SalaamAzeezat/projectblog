@@ -91,6 +91,7 @@ p {
     border: 2px solid transparent; 
     background-color: #f9ead3; 
     padding: 30px;
+    overflow: auto;
 }
 #sidebar-top {
     display: flex;
